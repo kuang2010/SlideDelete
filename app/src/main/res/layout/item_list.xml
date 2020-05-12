@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.kuang2010.slidedelete.SlideDeleteView
+        android:id="@+id/sdv_item"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <include layout="@layout/main_content" />
+        <include layout="@layout/right_delete"/>
+    </com.kuang2010.slidedelete.SlideDeleteView>
+</FrameLayout>
