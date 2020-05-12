@@ -77,9 +77,11 @@ public class MainActivity extends AppCompatActivity {
 
             final boolean show = showDelete.get(position);
             if (show){
-                viewHold.mSlideDeleteView.showDeleteChild();
+                //viewHold.mSlideDeleteView.showDeleteChild();
+                viewHold.mSlideDeleteView.showDeleteChild2();
             }else {
-                viewHold.mSlideDeleteView.hideDeleteVChild();
+                //viewHold.mSlideDeleteView.hideDeleteVChild();
+                viewHold.mSlideDeleteView.hideDeleteVChild2();
             }
 
             viewHold.mSlideDeleteView.setOnDragViewlistener(new SlideDeleteView.OnDragViewlistener() {
